@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size:90%;
+    background-color: #d4c9d7;
+    }
+   
+   /*  FORMULAIRES */
+    form {
+    background-color:#FAFAFA;
+    padding:10px;
+    width:280px;
+    }
+   fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid #DF3F3F;
+    }
+
+   input, textarea, select, option {
+    background-color:#FFF3F3;
+    }
+   input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+   select {
+    margin-top:10px;
+    }
+
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px #D83F3D;
+    cursor:pointer;
+    margin-top: 20px;
+    }
+
+    input[type=submit]:hover, input[type=reset]:hover {
+        background-color:#FCDEDE;
+        }
+       input[type=submit]:active, input[type=reset]:active {
+        background-color:#FCDEDE;
+        box-shadow:1px 1px 1px #D83F3D inset;
+       }
+
+h2{
+    margin: 10px;
+}
+
+#conteneur{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+

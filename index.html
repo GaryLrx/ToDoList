@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="projet de la To Do List en PHP">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_index.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        
+            <div id="conteneur">
+                <div class="connexion">
+                    <h2>Connectez-vous</h2>
+                        <form action="connexion.php" method="POST">
+                            <div><input type="text" name="mailco" placeholder="Mail"></div>
+                            <div><input type="text" name="compteco" placeholder="Votre compte : "></div>
+                            <div><input type="password" name="motdepasseco" placeholder="Mot de passe"></div>
+                            <div><input type="submit" value="Connexion"></div>
+                        </form>
+                </div>
+                <div class="inscription">
+                    <h2>Inscrivez-vous</h2>
+                        <form action="inscription.php" method="POST">
+                            <div><input type="text" name="nomins" placeholder="Votre nom :"></div>
+                            <div><input type="text" name="prenomins" placeholder="Votre prénom :"></div>
+                            <div><input type="mail" name="mailins" placeholder="Votre mail :"></div>
+                            <div><input type="text" name="compteins" placeholder="Votre compte : "></div>
+                            <div><input type="password" name="motdepasseins" placeholder="Votre Mot de passe :"></div>
+                            <div><input type="submit" value="Inscription"></div>
+                        </form>
+                </div>
+            </div>
+       
+    </main>
+ 
+</body>
+</html>

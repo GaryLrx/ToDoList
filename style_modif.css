@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ /* NAVIGATION */
+    nav ul li img{
+        width: 30px;
+    }
+
+    #deco{
+        width:50px
+    }
+
+
+    nav ul li a{
+        display: block;
+        padding: 10px;
+    }
+    nav ul li{
+        list-style: none;
+    }
+
+    .gestion{
+        display: flex;
+        justify-content: space-between;
+    }
+    body {
+    font-family: 'Montserrat', sans-serif;
+    font-size:90%;
+    background-color: #d4c9d7;
+    }
+
+/*  FORMULAIRES */
+   form {
+    background-color:#FAFAFA;
+    padding:10px;
+    width:280px;
+    margin: 0 auto;
+    }
+   fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid #DF3F3F;
+    }
+
+   input, textarea, select, option {
+    background-color:#FFF3F3;
+    }
+   input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+   select {
+    margin-top:10px;
+    }
+
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:10px 5px;
+    box-shadow:1px 1px 1px #D83F3D;
+    cursor:pointer;
+    margin-top: 20px;
+    }
+
+    input[type=submit]:hover, input[type=reset]:hover {
+        background-color:#FCDEDE;
+        }
+       input[type=submit]:active, input[type=reset]:active {
+        background-color:#FCDEDE;
+        box-shadow:1px 1px 1px #D83F3D inset;
+       }
+
+    h2{
+        margin: 10px;
+    }
+
+    #ajouttaches{
+        width:400px;
+        margin:0 auto;
+        margin-top:10%;
+    }
+
+    form input{
+        margin: 10px 0;
+    }
+
+     /* TACHES */
+
+     #taches{
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 116px;
+        /* display: flex; */
+        justify-content: space-around;
+     }
+
+    #taches div{
+        background-color: #FAFAFA;
+        margin-bottom: 20px;
+        width: 280px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .tacheHead{
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .tacheHead p{
+        padding: 10px;
+    }
+
+    .tache{
+        margin: 0 auto;
+    }
+
+    #modif{
+        padding: 0;
+    }
+
+    #modif{
+        padding: 0;
+    }
+
+    #supp{
+        padding: 0;
+    }
+
+    #modif input{
+        margin: 10px 0;
+    }
+
+    #supp input{
+        margin: 10px 0;
+    }
